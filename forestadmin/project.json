@@ -1,9 +1,9 @@
 {
   "project": {
-    "name": "sd-0x-block3-project-html-css",
+    "name": "tryber/sd-04-block3-project-html-css",
     "description": "Projeto de HTML e CSS",
     "enabled": true,
-    "deadline": "YYYY-MM-DD 14:10:00",
+    "deadline": "2020-04-01 14:10:00",
     "requirements": [
       {
         "description": "O corpo da página deve possuir uma cor (diferente da cor branca) como cor de fundo",
