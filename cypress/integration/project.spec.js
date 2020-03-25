@@ -14,6 +14,7 @@ describe('HTML and CSS Project', () => {
   it('O corpo da página deve possuir uma cor (diferente da cor branca) como cor de fundo', () => {
     cy.visit('./index.html');
     cy.get('body').should('not.have.css', 'backgroundColor', 'rgb(255, 255, 255)');
+    cy.get('body').should('not.have.css', 'backgroundColor', 'rgba(0, 0, 0, 0)');
   });
 
   it('A página deve possuir uma barra superior fixa com o ID "cabecalho"', () => {
